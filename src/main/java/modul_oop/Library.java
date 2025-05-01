@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Library {
 
-    private List<Publication> publications = new ArrayList<>();
+    private List<Publication> publications = new ArrayList<>(); // создаем динамический массив
 
 
     public void addPublication(Publication pub) { //добавление публикации в каталог (не забудьте увеличить счетчик публикаций в абстрактном классе).

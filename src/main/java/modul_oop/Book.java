@@ -21,11 +21,12 @@ public class Book extends Publication implements Printable {
         this.ISBN = ISBN;
         bookCount++;
     }
-public static void decreaseBookCount() {
-    if (bookCount > 0) {
-        bookCount--;
+
+    public static void decreaseBookCount() {
+        if (bookCount > 0) {
+            bookCount--;
+        }
     }
-}
 
     @Override
     public String getType() {
@@ -39,7 +40,7 @@ public static void decreaseBookCount() {
     }
 
 
-    @Override
+    @Override //переопределение
     public boolean equals(Object obj) {
         if (this == obj) return true; // говорим что ЭТОТ объект равне обекту obj
 
@@ -52,12 +53,13 @@ public static void decreaseBookCount() {
                 (this.getYear() == book.getYear()) &&
                 (ISBN != null ? ISBN.equals(book.getISBN()) : book.getISBN() == null);
     }
-    @Override
+
+    @Override // переопределение
     public int hashCode() {
         int result = (getTitle() != null ? getTitle().hashCode() : 0); // если название не равно нулю
         result = 31 * result + (getAuthor() != null ? getAuthor().hashCode() : 0);
         result = 31 * result + getYear();
-        result = 31 * result + (ISBN != null ? ISBN.hashCode() : 0 );
+        result = 31 * result + (ISBN != null ? ISBN.hashCode() : 0);
         // equals
         return result;
 
