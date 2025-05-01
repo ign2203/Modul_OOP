@@ -1,5 +1,5 @@
-package school.sorokin.javacore.oop.Modul_OOP;
 
+package modul_oop;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.*;

@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.Modul_OOP;
+package modul_oop;
 
 public abstract class Publication {
     private String title;// создаем приватные переменные

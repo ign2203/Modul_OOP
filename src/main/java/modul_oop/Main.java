@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.Modul_OOP;
+package modul_oop;
 
 import java.util.Locale;
 import java.util.Scanner;

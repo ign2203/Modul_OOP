@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.Modul_OOP;
+package modul_oop;
 
 public class Newspaper extends Publication implements Printable {
     private String publicationDay;
