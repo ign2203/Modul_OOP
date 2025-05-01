@@ -18,7 +18,7 @@ public class Newspaper extends Publication implements Printable {
 
     public static void decreaseNewspaperCount() {
         if (NewspaperCount > 0) {
-            NewspaperCount--;
+            NewspaperCount--;// уменьшаем
         }
     }
 

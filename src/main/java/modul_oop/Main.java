@@ -3,7 +3,10 @@ package modul_oop;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.InputMismatchException;
-
+/*
+оформи пул реквест с твоим кодом - так я смогу писать замечания непосредственно к строчкам кода
+подробная инструкция есть в материалах курса
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("Приветствую Вас!");
@@ -71,7 +74,7 @@ public class Main {
                             }
                             System.out.println("Нажмите 'любую_клавишу' для выхода в меню");
                             console.nextLine();
-                            break;
+                            break;// завершаем цикл
 
                             case "журнал": {
                                 System.out.println("Введите название журнала");
@@ -140,7 +143,7 @@ public class Main {
                             console.nextLine();
                             break;
                         }
-                        break;
+                        break; // после case всегда break
                     }
                 case 2:
                     if (choice == 2) {

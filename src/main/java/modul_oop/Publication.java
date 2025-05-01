@@ -20,7 +20,7 @@ public abstract class Publication {
 
     public Publication(String title, String author, int year) {
         this.title = title; // Инициализирует поля говорим, что указанная переменная равна ссылки другой переменной
-        this.author = author;
+        this.author = author;//автор
         this.year = year;
         publicationCount++;
     }

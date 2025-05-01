@@ -1,5 +1,5 @@
 package modul_oop;
 
 public interface Printable {
-    void printDetails();
+    void printDetails();// метод
 }

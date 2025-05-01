@@ -24,7 +24,7 @@ public class Magazine extends Publication implements Printable {
 
     public int getIssueNumber() {
         return issueNumber;
-    }
+    }//геттер
 
     public void setIssueNumber(int issueNumber) {
         this.issueNumber = issueNumber;
@@ -60,7 +60,7 @@ public class Magazine extends Publication implements Printable {
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode() {// переопределение
         int result = (getTitle() != null ? getTitle().hashCode() : 0); // если название не равно нулю
         result = 31 * result + (getAuthor() != null ? getAuthor().hashCode() : 0);
         result = 31 * result + (getYear());
